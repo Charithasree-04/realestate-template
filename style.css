@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+header{
+    min-height: 50px;
+    max-width: 100%;
+    background-image: linear-gradient(to right bottom, #fdf1e9, #fdefec, #faedef, #f5ecf2, #efecf3, #ebebf4, #e5eaf5, #deeaf5, #d4e9f7, #c9e8f8, #bce7f8, #afe6f7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+ul {
+    display:flex;
+    list-style: none;
+    align-items: center;
+    gap:10px;
+    margin-left: 300px;
+}
+p{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.navbar{
+    display:flex; 
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+.button-for-login{
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left:4px;
+    margin-right: 10px;
+    width:90px;
+}
+.button-for-USD{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.property{
+    display: flex;
+}
+h1{
+    margin-left:15px ;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+.house-image{
+    height: 450px;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.card{
+    background-color: #fff;
+    width: 25%;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 10px;
+
+}
+.flat{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+.flat span{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 24px;
+}
+.flat small{
+    font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+.split{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+}
+.button-for-split{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 35px;
+   
+}
+.greycard{
+    margin-top: 20px;
+    min-height: 150px;
+    width: 300px;
+    background:whitesmoke;
+    border-radius:15px;
+}
+.girl-image{
+   height:50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-top: 10px;
+   margin-left: 15px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #666;
+}
+.part2{
+    display: flex;
+}
+.button-for-contact{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 135px;
+    margin-left: 30px;
+}
+.button-for-request{
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left:4px;
+    margin-right: 10px;
+    width:300px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.whitecard{
+    width: 1230px;
+    min-height: 70px;
+    background:white;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.button-for-location{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+.button-for-appartment{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+.button-for-price{ padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 200px;
+    margin-left: 10px;}
+.button-for-bedrrom{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 200px;
+    margin-left: 10px;
+}
+.button-for-more{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 180px;
+    margin-left: 10px;
+}
+.button-for-search{
+
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left:4px;
+    margin-right: 10px;
+    width:90px;}
